@@ -1,0 +1,27 @@
+#todo {
+	text-align: center;
+	width: 100%;
+}
+
+#todo th {
+	width: 33%;
+}
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.row:nth-child(even) {
+	background-color: #ced4ff;
+}
+
+.row:nth-child(odd) {
+	background-color: #fbffe6;
+}
+
+#myInput {
+	margin-top: 20px;
+	width: 20%;
+}

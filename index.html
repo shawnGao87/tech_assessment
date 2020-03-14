@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+		<link rel="stylesheet" href="./main.css" />
+		<script src="./main.js"></script>
+		<title>To Do List</title>
+	</head>
+	<body>
+		<h2>My Task List</h2>
+		<table id="todo">
+			<tr>
+				<th>Task Name</th>
+				<th>Time Completed</th>
+				<th></th>
+			</tr>
+			<tr class="row">
+				<td>Get groceries</td>
+				<td class="t_completed"></td>
+				<td class="item_complete"><input type="checkbox" /></td>
+			</tr>
+			<tr class="row">
+				<td>Take out trash</td>
+				<td class="t_completed"></td>
+				<td class="item_complete"><input type="checkbox" /></td>
+			</tr>
+		</table>
+
+		<div id="TodoAdd">
+			<input type="text" id="myInput" placeholder="Next Task" />
+			<button>Add</button>
+		</div>
+	</body>
+</html>
